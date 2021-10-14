@@ -1,9 +1,5 @@
 const websocket = require("ws");
 
-// import { createServer } from "https";
-// import { readFileSync } from "fs";
-// import { WebSocketServer } from "ws";
-
 const wss = new websocket.Server({ port: 8080 });
 
 wss.on("connection", function connection(ws) {
@@ -14,6 +10,4 @@ wss.on("connection", function connection(ws) {
   ws.on("close", () => {
     console.log("closed");
   });
-
-  //   ws.send('something');
 });
