@@ -1,0 +1,21 @@
+{
+  "name": "simple-ws-server",
+  "version": "0.1.0",
+  "description": "mattie's super simple websocket server",
+  "main": "basic-server.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwindla/pluot-core.git"
+  },
+  "scripts": {
+    "serve": "node basic-server.js"
+  },
+  "dependencies": {
+    "ws": "^7.0.1"
+  },
+  "engines": {
+    "node": "11.13.0"
+  },
+  "devDependencies": {}
+}
