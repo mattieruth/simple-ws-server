@@ -9,8 +9,8 @@
       console.log('setup');
       window.onload = () => {connectWs()};
 
-      window.addEventListener('beforeunload', () => {disconnectWs('beforeunload')});
-    //   window.addEventListener('unload', () => {disconnectWs('unload')});
+    //   window.addEventListener('beforeunload', () => {disconnectWs('beforeunload')});
+      window.addEventListener('unload', () => {disconnectWs('unload')});
     </script>
   </body>
 </html>

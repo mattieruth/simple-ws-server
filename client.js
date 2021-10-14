@@ -1,4 +1,3 @@
-// import { WebSocket } from "ws";
 function connectWs() {
   console.log("load");
   var ws = new WebSocket("ws://localhost:8080");
